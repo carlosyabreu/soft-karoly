@@ -8,4 +8,4 @@ print(area)
 def build_ferrari(color: str = 'red') -> str:
     print(f"Built a {color} Ferrari")
 
-build_ferrari()
+build_ferrari('blue')
