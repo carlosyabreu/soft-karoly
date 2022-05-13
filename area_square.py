@@ -15,3 +15,9 @@ selection = input("""\t'C' - Circle
 \t'S' - Square
 \t'R' - Rectangle
 """)
+
+def calculate_rhombus_area(p: float, q: float) -> float:
+    return p * q / 2
+
+a = calculate_rhombus_area(2, 3)
+print(f"The area of rhombus is {a}")
