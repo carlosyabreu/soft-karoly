@@ -10,11 +10,9 @@ def login(user: str, passw: str) -> bool:
 username: str = input('Username: ')
 password: str = input('Password: ')
 
-logged_in = login(username, password)
+while login(username, password) == False:
+    print('Login failed, re-enter your credentials: ')
+    username: str = input('Username: ')
+    password: str = input('Password: ')
 
-if logged_in == True:
-    message = 'Login succesful'
-elif logged_in == False:
-    message = 'Login failed, check your credential'
-
-print(message)
+print('Login successful')
