@@ -23,7 +23,7 @@ selection = input("""\t'S' - Square
 """)
 
 
-def calculate_area(select: str):
+def calculate_area(selection: str):
     area = 0
 
     if selection == 'S':
