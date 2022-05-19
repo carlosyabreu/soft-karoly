@@ -7,5 +7,5 @@ for index in range(5):
     if index == 0: continue
     elif index % 2 == 0:
         print(f"{index} - iteration count {index + 1})"
-     else:
+    else:
          print(f"Odd number")
