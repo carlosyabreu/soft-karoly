@@ -9,3 +9,7 @@ primes.append(5)
 primes.append(7)
 
 print(primes)
+
+list = ["Michael", "Peter", "Carlos"]
+name = list[2]
+print(name)
