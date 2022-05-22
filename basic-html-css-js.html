@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Development From A to Z</title>
+    <style>
+        h1 {
+            color: blue;
+            font-family: arial;
+        }
+
+        h2 {
+            color: blue;
+            font-family: arial;
+        }
+
+        p {
+            color: blue;
+            font-family: arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Software Development Paths</h1>>
+    <h2>Web Developement</h2>
+    <p>You should understand the basic of Web Development</p>
+
+    <script>
+        var firstHeading = document.querySelector("h1");
+        var secondHeading = document.querySelector("h2");
+        var paragraph = document.querySelector("p")
+
+        function applyDarkTheme() {
+            firstHeading.style.color = "white";
+            secondHeading.style.color = "white";
+            paragraph.style.color = "white";
+        }
+
+        function applyLightTheme() {
+            firstHeading.style.color = "blue";
+            secondHeading.style.color = "blue";
+            paragraph.style.color = "blue";
+        }
+    </script>
+
+    <button onclick="applyDarkTheme()">Dark Theme</button> 
+    <button onclick="applyLightTheme()">Light Theme</button>
+</body>
+</html>
