@@ -1,4 +1,5 @@
 
+# business logic
 def login(user: str, passw: str) -> bool:
     is_authenticated = False
 
